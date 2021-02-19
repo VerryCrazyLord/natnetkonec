@@ -398,6 +398,28 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+  .header .header__wrapper {
+    display: block;
+    text-align: center;
+  }
+
+  .header .header__tagline {
+    padding: 60px 0;
+  }
+
+  .header .header__tagline-caption {
+    margin-bottom: 40px;
+    font-size: 26px;
+  }
+
+  .header .header__tagline-line {
+    display: none;
+  }
+
+  .header .header__tagline-text {
+    display: none;
+  }
+
   .team .team__info {
     display: flex;
     justify-content: center;
@@ -416,7 +438,7 @@ body {
 
 @media screen and (max-width: 736px) {
   .header .header__wrapper {
-    display: inline-block;
+    display: block;
     text-align: center;
   }
 
@@ -464,12 +486,12 @@ body {
 
 @media screen and (max-width: 425px) {
   .header .header__wrapper {
-    display: inline-block;
+    display: block;
     text-align: center;
   }
 
   .header .header__nav-link {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .history .history {
