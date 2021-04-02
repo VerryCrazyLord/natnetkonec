@@ -26,12 +26,12 @@
                 </div>
                 <nav class="header__nav">
                     <a href="#" class="header__nav-link">HOME</a>
-                    <a href="#" class="header__nav-link">ABOUT</a>
-                    <a href="#" class="header__nav-link">EXPERTISE</a>
-                    <a href="#" class="header__nav-link">TEAMS</a>
-                    <a href="#" class="header__nav-link">WORKS</a>
-                    <a href="#" class="header__nav-link">PEOPLE SAW</a>
-                    <a href="#" class="header__nav-link">CONTACT</a>
+                    <a href="#about" class="header__nav-link">ABOUT</a>
+                    <a href="#expertise" class="header__nav-link">EXPERTISE</a>
+                    <a href="#teams" class="header__nav-link">TEAMS</a>
+                    <a href="#works" class="header__nav-link">WORKS</a>
+                    <a href="#people" class="header__nav-link">PEOPLE SAY</a>
+                    <a href="#contact" class="header__nav-link">CONTACT</a>
                 </nav>
                 <div class="hamburger-menu">
                     <input id="menu__toggle" type="checkbox">
@@ -43,22 +43,22 @@
                             <a class="header__nav-link mobile__nav-link" href="#">HOME</a>
                         </li>
                         <li class="mobile__nav-item">
-                            <a class="header__nav-link mobile__nav-link" href="#">ABOUT</a>
+                            <a class="header__nav-link mobile__nav-link" href="#about">ABOUT</a>
                         </li>
                         <li class="mobile__nav-item">
-                            <a class="header__nav-link mobile__nav-link" href="#">EXPERTISE</a>
+                            <a class="header__nav-link mobile__nav-link" href="#expertise">EXPERTISE</a>
                         </li>
                         <li class="mobile__nav-item">
-                            <a class="header__nav-link mobile__nav-link" href="#">TEAMS</a>
+                            <a class="header__nav-link mobile__nav-link" href="#teams">TEAMS</a>
                         </li>
                         <li class="mobile__nav-item">
-                            <a class="header__nav-link mobile__nav-link" href="#">WORKS</a>
+                            <a class="header__nav-link mobile__nav-link" href="#works">WORKS</a>
                         </li>
                         <li class="mobile__nav-item">
-                            <a class="header__nav-link mobile__nav-link" href="#">PEOPLE SAW</a>
+                            <a class="header__nav-link mobile__nav-link" href="#people">PEOPLE SAY</a>
                         </li>
                         <li class="mobile__nav-item">
-                            <a class="header__nav-link mobile__nav-link" href="#">HOMECONTACT</a>
+                            <a class="header__nav-link mobile__nav-link" href="#contact">CONTACT</a>
                         </li>
                     </ul>
                 </div>
@@ -80,7 +80,7 @@
 
     </header>
     <main class="main">
-        <div class="history">
+        <div class="history" id="about">
             <div class="container-my">
                 <div class="history__wrapper">
 
@@ -123,7 +123,7 @@
             </div>
         </div>
     </div>
-        <div class="expertise">
+        <div class="expertise" id="expertise">
             <div class="container-my">
                 <h2 class="expertise__caption">EXPERTISE</h2>
                 <p class="expertise__text">Lorem ipsum dolor sit amet proin gravida nibh vel velit</p>
@@ -182,7 +182,7 @@
                 </div>
             </div>
         </div>
-        <div class="team">
+        <div class="team" id="teams">
             <div class="container-my">
                 <h2 class="team__caption">MEET OUR AMAZING TEAM</h2>
                 <p class="team__text">Lorem ipsum dolor sit amet proin gravida nibh vel velit</p>
@@ -221,7 +221,7 @@
                 <button class="team__button btn1">WE ARE HIRING</button>
             </div>
         </div>
-        <div class="works">
+        <div class="works" id="works">
             <div class="container-my">
                 <div class="works__flex">
                     <h2 class="works__caption">OUR WORKS</h2>
@@ -249,7 +249,7 @@
             </div>
             <button class="btn1 works__button">LOAD MORE</button>
         </div>
-        <div class="reviews">
+        <div class="reviews" id="people">
             <div class="container-my">
                 <div class="reviews__info">
                     <div>
@@ -277,7 +277,7 @@
                 </div>
             </div>
         </div>
-        <div class="form">
+        <div class="form" id="contact">
             <div class="container-my">
                 <div class="form__caption">GIVE US A GOOD NEWS</div>
                 <form action="">
@@ -357,14 +357,6 @@
             </div>
         </div>
     </footer>
-    <!-- <script>
-        document.querySelector('.click-for-video').onclick = function() {
-          this.style.display = 'none';
-          document.querySelector('div.youtube').style.display = 'block';
-          document.querySelector('iframe.youtube')
-            .src = 'https://www.youtube.com/watch?v=KvUgaHTNit4';
-        };
-        </script> -->
 </body>
 
 </html>
